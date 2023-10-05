@@ -8,6 +8,6 @@
 zebra=yes
 bgpd=no
 ospfd=yes
-ospf6d=yes
+ospf6d=no
 ripd=no
 ripngd=no
