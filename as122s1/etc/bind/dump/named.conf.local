@@ -1,0 +1,9 @@
+zone "isp122.lab" {
+  type master;
+  file "/etc/bind/zones/db.isp122.lab"
+}
+
+zone "1.122.0.in-addr.arpa" {
+  type master;
+  file "/etc/bind/zones/db.1.122.0"
+}
