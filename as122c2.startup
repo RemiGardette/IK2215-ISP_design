@@ -1,2 +1,1 @@
-ip route add default via 1.122.2.1
-! add start script to obtain ip address from dhcp server
+sudo dhclient eth0
