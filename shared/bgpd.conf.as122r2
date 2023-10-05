@@ -1,0 +1,17 @@
+!
+! Zebra configuration saved from vty
+!   2023/10/05 07:53:01
+!
+hostname bgpd
+password zebra
+enable password zebra
+log file /var/log/zebra/bgpd.log
+!
+router bgp 122
+ bgp router-id 1.122.8.2
+ neighbor 1.122.8.1 remote-as 122
+ neighbor 1.122.8.1 update-source 1.122.8.2
+ exit
+!
+line vty
+!
