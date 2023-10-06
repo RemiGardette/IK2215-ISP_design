@@ -1,0 +1,33 @@
+; db.isp122
+$TTL 86400
+@   IN SOA ns.isp122.lab. admin.isp122.lab. (
+    2023100601  ; Serial
+    3600        ; Refresh
+    1800        ; Retry
+    604800      ; Expire
+    86400       ; Minimum TTL
+)
+@   IN NS ns.isp122.lab.
+
+; Forward DNS entries
+ns         IN A 1.122.1.2
+www        IN A 1.122.3.1
+dhcpd      IN A 1.122.4.1
+r1eth0     IN A 1.122.5.0
+r1eth1     IN A 1.122.1.6
+r1eth2     IN A 1.122.1.4
+r1eth3     IN A 1.122.1.7
+r1dummy0   IN A 1.122.1.8
+r2eth0     IN A 1.122.1.0
+r2eth1     IN A 1.122.2.6
+r2eth2     IN A 1.122.1.5
+r2dummy0   IN A 1.122.2.8
+r3eth0     IN A 1.122.1.1
+r3eth1     IN A 1.122.2.3
+r3eth2     IN A 1.122.2.5
+r3eth3     IN A 1.122.2.7
+r3dummy0   IN A 1.122.3.8
+r4eth0     IN A 1.122.1.2
+r4eth1     IN A 1.122.1.3
+r4eth2     IN A 1.122.2.4
+r4dummy0   IN A 1.122.4.8
