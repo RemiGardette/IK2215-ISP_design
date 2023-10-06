@@ -34,3 +34,6 @@ $TTL 86400
 1.4 IN PTR r4eth2.isp122.lab.
 4.8 IN PTR r4dummy0.isp122.lab.
 
+2.2 IN PTR client1.isp122.lab.
+3.2 IN PTR client2.isp122.lab.
+

@@ -1,0 +1,2 @@
+INTERFACES="eth0"  
+SERVERS="1.122.1.4"

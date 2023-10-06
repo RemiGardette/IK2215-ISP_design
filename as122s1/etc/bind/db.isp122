@@ -29,3 +29,6 @@ r4eth0     IN A 1.122.2.1
 r4eth1     IN A 1.122.3.0
 r4eth2     IN A 1.122.4.1
 r4dummy0   IN A 1.122.8.4
+client1    IN A 1.122.2.2
+client2    IN A 1.122.2.3
+
