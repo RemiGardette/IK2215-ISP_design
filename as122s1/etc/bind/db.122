@@ -1,0 +1,16 @@
+$TTL	604800
+@	IN	SOA	ns.isp122.lab root.isp122.lab. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@		IN	NS	ns.isp122.lab.
+
+1.1.0	IN      PTR     gw.isp122.lab.
+2.1.0	IN      PTR     dnstld.isp122.lab.
+3.1.0	IN      PTR     ns.isp122.lab.
+
+21.122.in-addr.arpa.	IN	NS	ns.isp21.lab.
+
