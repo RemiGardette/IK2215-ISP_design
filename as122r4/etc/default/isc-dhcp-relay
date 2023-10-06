@@ -1,2 +1,2 @@
-INTERFACES="eth0"  
+INTERFACES="eth0 eth1 eth2"  
 SERVERS="1.122.1.4"
