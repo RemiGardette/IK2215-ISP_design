@@ -1,10 +1,10 @@
 $TTL 86400
 @   IN  SOA ns.isp122.lab. admin.isp122.lab. (
-        	2023100501 ; Serial
-        	604800 ; Refresh
-        	86400 ; Retry
-        	2419200 ; Expire
-        	86400 ) ; Negative Cache TTL
+        	1 ; Serial
+        	600 ; Refresh
+        	600 ; Retry
+        	600 ; Expire
+        	60 ) ; Negative Cache TTL
 
 @      	IN  NS 	ns.isp122.lab.
 
